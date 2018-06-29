@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabela Simples</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icon.html" type="image/x-icon">
+</head>
+<body>
+    <div class="container-flex">
+        <header>
+            <h1>
+                Tabela Simples
+            </h1>
+        </header>
+    </div>
+    <div class="container">
+        <div>
+            <label>Cabeçalho:</label>
+            <input type="text" placeholder="Cabeçalho" id="cabecalho">
+            <label>Dados à inserir na tabela:</label>
+            <input type="text" placeholder="Dados" id="dados">
+            <label>Título:</label>
+            <input type="text" placeholder="Título" id="titulo">
+            <label>Fonte da pesquisa:</label>
+            <input type="text" placeholder="Fonte" id="fonte">    
+        </div>
+    </div>
+
+    <section>
+        <h2>
+            Escolha o(s) tipo(s) de Frequencia(s):
+        </h2>
+        <div>
+            <input type="checkbox" id="Fi">
+            <label>Frequencia Absoluta (Fi)</label>
+        </div>
+        <div>
+            <input type="checkbox" id="FAi">
+            <label>Frequencia Acumulada Absoluta (FAi)</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Fr">
+            <label>Frequencia Relativa (Fr)</label>
+        </div>
+        <div>
+            <input type="checkbox" id="FAr">
+            <label>Frequencia Acumulada Relativa (FAr)</label>
+        </div>
+        <button id="gerar">Gerar...</button>
+        <div class="table">
+            <table id="table0">
+
+            </table>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
