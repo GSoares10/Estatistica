@@ -1,1 +1,73 @@
-Waiting script...
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(45deg, cyan, white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+div.container>div>fieldset>input[type=text] {
+    margin: 0 auto;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 2px 2px 3px #333333;
+    -moz-box-shadow: 2px 2px 3px #333333;
+    -webkit-box-shadow: 2px 2px 3px #333333;
+    border: 1px solid #000000;
+    width: 150px
+}
+
+h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+th, td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+thead {
+    text-align: center;
+    background-color: black;
+}
+
+.container span {
+    text-align: left;
+}
+
+tbody {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+td:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+    font-size: 0.8em;
+    position: absolute;
+    text-align: center;
+    bottom: 0%;
+    left: 47%;
+}
