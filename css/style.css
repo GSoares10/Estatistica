@@ -1,73 +1,58 @@
 html,
 body {
-    height: 100%;
+    height: ;
+    background: linear-gradient(45deg, rgb(217, 235, 241), white);
+    
 }
 
 body {
-    background: linear-gradient(45deg, cyan, white);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
 
-div.container>div>fieldset>input[type=text] {
-    margin: 0 auto;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    box-shadow: 2px 2px 3px #333333;
-    -moz-box-shadow: 2px 2px 3px #333333;
-    -webkit-box-shadow: 2px 2px 3px #333333;
-    border: 1px solid #000000;
-    width: 150px
-}
-
-h1,
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    font-size: 1.5em;
+input {
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    -webkit-box-shadow: 5px 5px 10px gray;
+    -moz-box-shador: 5px 5px 10px gray;
 }
 
 table {
-    margin: 0 auto;
-    width: 80%;
-    border-collapse: collapse;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
-th,
-td {
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #fff;
-}
-
-thead {
+td,th {
+    border: 1px solid;
+    width: 20%;
     text-align: center;
-    background-color: black;
+    padding: 1px;
+    background: linear-gradient(45deg, rgb(197, 219, 226), white);
+    border-radius: 5px;
+        box-shadow: 5px 5px 10px gray;
+        -webkit-box-shadow: 5px 5px 10px gray;
+        -moz-box-shador: 5px 5px 10px gray;
 }
 
-.container span {
-    text-align: left;
-}
 
-tbody {
+
+#nometable {
     text-align: center;
 }
 
-tr:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+#nomee {
+    padding-left: 1%;
 }
 
-td:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+button {
+    border-radius: 10px;
+    background-color: rgb(217, 235, 241);
 }
 
-footer {
-    font-size: 0.8em;
-    position: absolute;
-    text-align: center;
-    bottom: 0%;
-    left: 47%;
+th,th1,th2,th3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topzera {
+    font-size: 0.7em;
 }

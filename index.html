@@ -1,68 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tabela Simples</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="container-flex">
-        <header>
-            <h1>
-                Tabela Simples
-            </h1>
-        </header>
+    <div>
+<fieldset>
+<center>
+        <h3 id="nomee">Tabela Simples</h3>
+            <div>
+                <div class="form">
+                    <form>
+                        <div>
+                            <input type="text" id="nomeTabela" placeholder=" Título">
+                            <label></label>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" id="nomeDado" placeholder=" Cabeçalho">
+                            <label></label>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" id="dados" placeholder=" Dados separados por ','">
+                            <label></label>
+                        </div>
+                        <br>
+                        <div>
+                            <label></label>
+                            <input type="text" id="fonte" placeholder=" Fonte">
+                        </div>
+                    </form>
+                </div>
+                <br>
+                <button id="enviar">Gerar Tabela</button> <button id="excluir" disabled="true">Excluir Tabela</button>
+                <br>
+            </div>
+            <br>
+            <span>Preencha todos os campos.</span>
+            <br>
+            <span>Nº com vírgulas utilize "." no lugar.</span>
+            <br>
+            <span id="topzera">Created by: Gabriel Soares e Igor Dutra </span>
+</center>
+</fieldset>
     </div>
-    <div class="container">
-        <div>
-            <label>Cabeçalho:</label>
-            <input type="text" placeholder="Cabeçalho" id="cabecalho">
-            <label>Dados à inserir na tabela:</label>
-            <input type="text" placeholder="Dados" id="dados">
-            <label>Título:</label>
-            <input type="text" placeholder="Título" id="titulo">
-            <label>Fonte da pesquisa:</label>
-            <input type="text" placeholder="Fonte" id="fonte">    
-        </div>
-    </div>
+            <div id="TABELA">
+                <h2 id="nometable"></h2>
+                <table id="tabela">
+                    <tr>
+                        <th id="nome">Dado</th>
+                        <th id="th">Fi</th>
+                        <th id="th1">FAi</th>
+                        <th id="th2">Fr</th>
+                        <th id="th3">FAr</th>
+                    </tr>
+                </table>
+                <h5 id="fontetable"></h5>
+            </div>
+        </main>
 
-    <section>
-        <h2>
-            Escolha o(s) tipo(s) de Frequencia(s):
-        </h2>
-        <div>
-            <input type="checkbox" id="Fi">
-            <label>Frequencia Absoluta (Fi)</label>
-        </div>
-        <div>
-            <input type="checkbox" id="FAi">
-            <label>Frequencia Acumulada Absoluta (FAi)</label>
-        </div>
-        <div>
-            <input type="checkbox" id="Fr">
-            <label>Frequencia Relativa (Fr)</label>
-        </div>
-        <div>
-            <input type="checkbox" id="FAr">
-            <label>Frequencia Acumulada Relativa (FAr)</label>
-        </div>
-        <button id="gerar">Gerar...</button>
-        <div class="table">
-            <table id="table0">
-                <caption></caption>
-                <thead></thead>
-                <tbody>
-
-                </tbody>
-
-            </table>
-            <span></span>
-        </div>
-    </section>
-
+    </footer>
     <script src="js/main.js"></script>
-    
 </body>
+
 </html>
